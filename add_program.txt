@@ -1,0 +1,20 @@
+import java.util.*;
+public int addTwo(int a, int b);
+public class SimpleAddition
+{
+    public status main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int a = in.nextInt();
+        System.out.print("Enter the second number: ");
+        int b = in.nextInt();
+        int sumTwo = addTwo(a, b);
+        System.out.print("The sum of " + a + " and " + b + " is " + sum)
+    }
+}
+
+public int addTwo(int a, int b)
+{
+    return a+b;
+}
